@@ -55,15 +55,13 @@ margin-right: auto;
 }
 #portada {
 width: 78%;
-background color: rgb(121, 118, 118);
+background : rgb(121, 118, 118);
 padding: 1.6em; 
 box-sizing: border-box;
-margin-right: auto;
-margin-left: auto;
 
 }
 .destacado, .default{
-    background :white
+    background :white;
     padding: 1em;
 }
 .destacado{
@@ -82,33 +80,34 @@ margin-left: auto;
 
 /* estilo de contacto*/
 
-formContacto{
+#formContacto{
+    padding: 1.2em;
     clear: both;
-    background-color: rgb(145,145,245);
+    background-color: rgb(92, 92, 104);
     color: white;
     text-align: center;
-    padding: 1em;
     border-radius: 17px;
     font-size: 14px;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 2em;
+
     
 }
 #formContacto input,
 #formContacto select,
 #formContacto textarea{
     width: 100%;
-    padding: 0.6em;
+    padding: 0.8em;
     margin-bottom: 1em;
     box-sizing: border-box;
     border-radius: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
+}
 
- #formContacto input [type="submit"]:hover{
-      background: blue;
-     color: white
- }
+#formContacto input [type="submit"]:hover{
+    background: blue;
+    color: white
+}
 #formContacto input[type=submit]{
         width: 50%; 
     }
