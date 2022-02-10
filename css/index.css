@@ -1,0 +1,130 @@
+*{margin:0;
+padding: 0;
+}
+body
+{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 16;
+}
+
+.header {
+    background-color: rgb(110, 110, 236);
+    color:white;
+    height: 80px;
+    width: 85vw;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{ 
+    text-transform: uppercase ;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+background: rgb(117, 186,224);
+color: white;
+width: 85vw;
+height: 70px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.navbar ul {
+text-align: right;
+}
+.navbar ul li {
+display: inline-block ;
+}
+
+.navbar ul li a{
+
+text-decoration: none;
+display: block;
+padding: 35px;
+color: white;
+}
+.navbar ul li a:hover { 
+    color: rgb(14, 69, 187);
+}
+#mainContent{
+width: 85vw;
+margin-left: auto;
+margin-right: auto;
+}
+#portada {
+width: 78%;
+background color: rgb(121, 118, 118);
+padding: 1.6em; 
+box-sizing: border-box;
+margin-right: auto;
+margin-left: auto;
+
+}
+.destacado, .default{
+    background :white
+    padding: 1em;
+}
+.destacado{
+    margin-bottom: 0.6em;
+}
+.default{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    height: 500px;
+}
+.imgNota img{
+    width: 100%;
+}
+
+
+/* estilo de contacto*/
+
+formContacto{
+    clear: both;
+    background-color: rgb(145,145,245);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 17px;
+    font-size: 14px;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    
+}
+#formContacto input,
+#formContacto select,
+#formContacto textarea{
+    width: 100%;
+    padding: 0.6em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ #formContacto input [type="submit"]:hover{
+      background: blue;
+     color: white
+ }
+#formContacto input[type=submit]{
+        width: 50%; 
+    }
+#formContacto input:focus {
+    background: rgb(218,216,216);
+}
+
+footer{
+    clear: both;
+    background-color: rgb(145,145,245);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    width: 85vw;
+    margin-left: auto ;
+    margin-right: auto;
+    margin-top: auto ;
+}
